@@ -23,7 +23,7 @@ Hay un total de **3 tipos de usuarios**, dos de ellos disponibles para todos y u
 ### 3.1 Contribuyente.  
 El primer usuario disponible para todo el mundo sería el tipo **contribuyente**, este tendría la capacidad de ver las ayudas disponibles para poder elegirlas y luego otra opción que sería la de ver las ayudas aceptadas.  
 ### 3.2 Solicitante  
-Este sería el segundo disponible para todos, este en cambio es que te permitiría generar ayudas para comentar tu problema y por otro lado poder ver tus ayudas creadas tanto las no aceptadas como las aceptadas.  
+Este sería el segundo disponible para todos, este en cambio es el que te permitiría generar ayudas para comentar tu problema y por otro lado poder ver tus ayudas creadas tanto las no aceptadas como las aceptadas.  
 ### 3.3 Admin  
 Por último tendríamos el tipo admin, este sería el que tiene poder tanto en los dos usuarios creados como en las ayudas de los usuarios, para poder editar estos por si hubiera algún problema.  
 ## 4.Sistema de aceptación de ayudas.  
