@@ -12,7 +12,7 @@
 
 <form method="get" action="EditaAyuda.jsp" class="fde">
   Nueva Ayuda <input type="text" name="Ayuda"/></br>
-  Nuevo Comentario <input type="text" name="Comentario"/></br>
+  Nuevo Comentario  </br><textarea name="Comentario"></textarea></br>
   Nuevo Fecha Inicial <input type="date" name="FechaIni"/></br>
   Nueva Fecha Final <input type="date" name="FechaFin"/></br>
   <input type="hidden" name="Id" value="<%=request.getParameter("Id")%>"/></br>
