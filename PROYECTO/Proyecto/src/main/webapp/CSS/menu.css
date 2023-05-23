@@ -1,0 +1,322 @@
+/* TEXTO MOVIMIENTO INICIO*/
+
+span {
+    display: block;
+    white-space: nowrap;
+    width: 26ch;
+    animation: typing 2s steps(26), blink .5s infinite step-end alternate;
+    overflow:hidden;
+}
+
+@keyFrames typing {
+
+    from { width: 0}
+}
+
+@keyFrames blink {
+    50% { border-color: transparent}
+}
+
+/* PAGINA DE INICIO*/
+p{
+    font-size: 30px;
+}
+
+
+body{
+    font-family: Richard;
+    color:white;
+    background-image: url("../Recursos/Imagenes/fondo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: 'Richard';
+    src: url("../Recursos/fuentes/Richard Samuels.otf");
+}
+img.logo{
+    width: 70px;
+    height: auto;
+    padding-right: 3px;
+    margin-left: 1px;
+}
+a{
+    color: white;
+    font-family: Richard;
+    font-size: 35px;
+    text-decoration:none;
+}
+
+#barraNavegacion ul{
+    list-style-type: none;
+    text-align: center;
+    position: fixed;
+    top: 3%;
+    width: 100%;
+    right: 0;
+    left: 20%;
+}
+
+#barraNavegacion li{
+    display: inline;
+    text-align: center;
+    margin: 0 10px 0 0;
+}
+
+#barraNavegacion li a {
+    padding: 2px 7px 2px 7px;
+    border: 1px solid #ccc;
+    text-decoration: none;
+}
+
+#barraNavegacion a:hover{
+    background-color: #333333;
+}
+
+h1.titulo{
+    color: white;
+    font-size: 100px;
+    margin-top: 0px;
+}
+h2.titulosPa{
+    font-size: 40px;
+}
+div.divglo{
+    display: flex;
+}
+section{
+    display: flex;
+    width: 900px;
+    height: 630px;
+    margin: 0px;
+    padding:0px ;
+}
+
+section img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 50%;
+    transition: .5s ease;
+}
+
+section img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+div.div1{
+    margin-left: 5%;
+}
+
+div.div2{
+    margin-right: 5%;
+    margin-left: 5%;
+}
+p.notificacion{
+    font-size: 1rem;
+}
+
+
+.fde{
+    font-size: 30px;
+}
+input,select{
+    width: 520px;
+    height: 60px;
+    font-size:40px ;
+}
+p.perfil{
+    font-size: 60px;
+    color: white;
+}
+
+h2.tfor{
+    font-size: 100px;
+    text-align: center;
+}
+
+h2.tfor2{
+    font-size: 80px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+/* PAGINA DE ELEJIR DE QUE MANERA QUIERES REGISTRARTE */
+
+
+form.fde{
+    border: 1px solid ghostwhite;
+    border-radius: 5px;
+    padding: 17px;
+    width: 540px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+input.boton{
+    font-family:Richard;
+    font-weight:bold;
+    color:indianred;
+    background:ghostwhite;
+}
+textarea{
+    height: 120px;
+    width: 520px;
+    font-size: 20px;
+}
+select{
+    margin-bottom: 17px;
+}
+
+p.campos{
+    position: absolute;
+    right: 36%;
+    top: 90%;
+}
+
+/* PAGINA DE EDITAR USUS ADMIN*/
+
+input.boton2{
+    font-family:Richard;
+    font-weight:bold;
+    color:steelblue;
+    background:ghostwhite;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+}
+
+table{
+    font-size: 20px;
+    position: relative;
+    margin: 0 auto;
+    background-color: darkgreen;
+    border: white;
+}
+
+caption{
+    font-size: 25px;
+}
+table.tabla1{
+    margin-top: 5%;
+    padding: 10px;
+}
+
+table.tabla2{
+    padding: 10px;
+    margin-top: 3%;
+}
+
+div.edicion ul{
+    list-style-type: none;
+    text-align: center;
+    position: fixed;
+    top: 3%;
+    width: 50%;
+    right: 0;
+    left: 57%;
+}
+
+div.edicion li{
+    display: inline;
+    text-align: center;
+    margin: 0 10px 0 0;
+}
+
+div.edicion li a {
+    padding: 2px 7px 2px 7px;
+    border: 1px solid #ccc;
+    text-decoration: none;
+}
+
+div.edicion a:hover{
+    background-color: #333333;
+}
+
+/* APARTADO AL TERMINAR EL REGISTRO*/
+body.loading{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+div.loader{
+    display: grid;
+    place-items: end;
+    width: 170px;
+    height: 170px;
+    border-radius: 70%;
+    border: 8px solid white;
+    border-top-color: transparent;
+    animation: loader 1.2s linear infinite;
+}
+
+@keyframes loader {
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+
+/*DATOS DE LOS USUARIOS*/
+
+article.effe{
+    position: relative;
+    width: 250px;
+    transition: all .3s ease;
+}
+
+article.effe img{
+    box-shadow: 0 60px 60px -60px rgba(0, 30,255,0.5);
+    border-radius: 4px;
+    object-fit: cover;
+    width: 320%;
+}
+
+article.effe p.fusi{
+    position: absolute;
+    width: 400px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: translate(25%);
+    transition: .3s ease;
+    opacity: 0;
+}
+
+article.effe:hover{
+    transform: perspective(250px) translateY(-5%) translateZ(0);
+}
+
+article.effe:before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    height: 70%;
+    width: 320%;
+    background-image: linear-gradient(to bottom,transparent 10%,rgba(0,0,0,0.5)50%,rgba(0,0,0)95%);
+    opacity: 0;
+    transition: all .3s ease;
+}
+
+article.effe:hover::before{
+    opacity: 1;
+}
+
+article.effe:hover p.fusi{
+    opacity: 1;
+    transform: translateY(2%) translateX(1%);
+}
+
+
+
