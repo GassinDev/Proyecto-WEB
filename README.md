@@ -11,6 +11,7 @@ Proyecto realizado por Juan, Rafael y Álvaro en IntelIij
 ### 3.Tipos de usuarios y sus funciones.  
 3.1 Admin.  
 3.2 Contribuyente.  
-3.3 Solicitante.  
-### 4.Tipos de usuarios y sus funciones.
+3.3 Solicitante.
+### 4.Sistema de aceptación de ayudas.
+
 
