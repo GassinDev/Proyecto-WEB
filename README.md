@@ -26,5 +26,5 @@ El primer usuario disponible para todo el mundo sería el tipo **contribuyente**
 Este sería el segundo disponible para todos, este en cambio es que te permitiría generar ayudas para comentar tu problema y por otro lado poder ver tus ayudas creadas tanto las no aceptadas como las aceptadas.  
 ### 3.3 Admin  
 Por último tendríamos el tipo admin, este sería el que tiene poder tanto en los dos usuarios creados como en las ayudas de los usuarios, para poder editar estos por si hubiera algún problema.  
-### 4.Sistema de aceptación de ayudas.  
+## 4.Sistema de aceptación de ayudas.  
 En este último apartado queremos mencionar que las ayudas enviadas por los solicitantes le aparecerían a todos los contribuyentes para que estos encuentren la que mejor puedan convenirles a su especialidad, para luedo añadirles una fecha de finalización la cuál sería la fecha límite que intuye el contribuyente que solucionará su problema.
