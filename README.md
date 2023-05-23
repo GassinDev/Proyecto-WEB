@@ -27,4 +27,4 @@ Este sería el segundo disponible para todos, este en cambio es el que te permit
 ### 3.3 Admin  
 Por último tendríamos el tipo admin, este sería el que tiene poder tanto en los dos usuarios creados como en las ayudas de los usuarios, para poder editar estos por si hubiera algún problema. La creación de este tipo de usuario no esta disponible para el público.  
 ## 4.Sistema de aceptación de ayudas.  
-En este último apartado queremos mencionar que las ayudas enviadas por los solicitantes le aparecerían a todos los contribuyentes para que estos encuentren la que mejor puedan convenirles a su especialidad, para luedo añadirles una fecha de finalización la cuál sería la fecha límite que intuye el contribuyente que solucionará su problema.
+En este último apartado queremos mencionar que las ayudas enviadas por los solicitantes le aparecerían a todos los contribuyentes para que estos encuentren la que mejor puedan convenirles a su especialidad, para luego añadirles una fecha de finalización la cuál sería la fecha límite que intuye el contribuyente que solucionará su problema.
